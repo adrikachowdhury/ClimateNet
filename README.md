@@ -63,7 +63,7 @@ Main evaluation metric: **Macro-averaged F1-score**.
 
 ## 📂 Repository Structure
 
-Notebooks/
+Notebooks/<b>
 ├── Relevance/
 │ ├── BERT.py
 │ ├── ClimateBERT.py
