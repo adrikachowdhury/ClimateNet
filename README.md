@@ -30,8 +30,6 @@ Input Tweets → Preprocessing → Transformer Embedding
 → BiLSTM (Sequential Learning)
 → MLP Classifier → Predicted Label
 
-
-
 Each transformer (BERT, RoBERTa, DistilBERT, ClimateBERT) is fine-tuned and followed by a BiLSTM and MLP classifier.  
 
 - **Transformers:** Extract deep contextual features  
