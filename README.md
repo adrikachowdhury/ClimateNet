@@ -1,6 +1,6 @@
 # 🌍 ClimateNet: A Multi-Faceted Classifier for Analyzing Climate Change Discourse
 
-**Authors:** Tustee Mazumdar and Adrika Chowdhury (equal contribution), Abu Nowshed Chy, and Tarem Ahmed
+**Authors:** <sup>$</sup>Tustee Mazumdar, <sup>$</sup>Adrika Chowdhury, Abu Nowshed Chy, and Tarem Ahmed || $- Equal Contribution ||
 
 ---
 
