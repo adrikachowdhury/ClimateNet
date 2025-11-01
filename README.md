@@ -15,19 +15,7 @@ It is currently **in press and will be published soon in the IEEE Xplore digital
 
 **ClimateNet** is a **multi-task text classification framework** designed to analyze the multifaceted discourse surrounding **climate change on social media**. It leverages **transformer-based contextual embeddings (BERT, RoBERTa, DistilBERT, ClimateBERT)** integrated with a **Bidirectional LSTM (BiLSTM)** and a **Multilayer Perceptron (MLP)** classifier to capture both semantic and sequential dependencies in textual data.  
 
-The model aims to uncover diverse perspectives—including stance, relevance, humor, and hate—within climate-related conversations, aligning with **UN Sustainable Development Goal (SDG) 13: Climate Action**.
-
----
-
-## 🧠 Research Motivation
-
-Online discussions on climate change reflect a range of public opinions—from support and opposition to humor and hostility. Understanding these nuances helps policymakers, researchers, and organizations promote informed awareness and counter harmful narratives.  
-
-However, analyzing such short, noisy, and imbalanced microblog data (e.g., tweets) is challenging. ClimateNet addresses these issues through:
-- **Contextualized embeddings** from transformers  
-- **Sequential learning** via BiLSTM  
-- **Class imbalance handling** using weighted cross-entropy and oversampling  
-- **Multi-aspect classification** across six tasks  
+The model aims to uncover diverse perspectives—including stance, relevance, humor, and hate—within climate-related conversations, aligning with **UN Sustainable Development Goal (SDG) 13: Climate Action**. 
 
 ---
 
@@ -40,24 +28,6 @@ Each transformer (BERT, RoBERTa, DistilBERT, ClimateBERT) is fine-tuned and foll
 - **Transformers:** Extract deep contextual features
 - **BiLSTM:** Captures long- and short-term dependencies
 - **MLP:** Maps learned representations to output labels
-
-
-### 🧠 Pipeline Components
-
-1. **Data Formatting:**  
-   Raw social media texts and their associated labels are preprocessed and tokenized into a structured input format suitable for transformer models.
-
-2. **Feature Extraction (BERT, RoBERTa, DistilBERT, ClimateBERT):**  
-   Each transformer independently extracts deep contextual embeddings from the formatted text.  
-   These embeddings capture the semantic nuances and contextual relationships in climate-related discourse.
-
-3. **Sequential Learning (BiLSTM):**  
-   The extracted features are passed through a **Bidirectional LSTM**, which models long-term dependencies by processing sequences in both forward and backward directions.  
-   This step enhances temporal understanding and context retention.
-
-4. **Classification Module (MLP):**  
-   The BiLSTM outputs are fed into a **Multilayer Perceptron (MLP)** classifier, which produces the final predictions for each task.  
-   Depending on the classification objective (binary or multiclass), a sigmoid or softmax activation is applied.
 
 ---
 
