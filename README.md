@@ -156,7 +156,7 @@ Install the required packages using:
 pip install -r requirements.txt
 ```
 
-###4️⃣ Run the Notebooks
+### 4️⃣ Run the Notebooks
 
 Upload the notebook of your choice (e.g., ```Notebooks/Stance/DistilBERT_Stance.ipynb```) to Colab and ensure the runtime is set to GPU for faster training.
 
