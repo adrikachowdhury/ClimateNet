@@ -66,45 +66,44 @@ Main evaluation metric: **Macro-averaged F1-score**.
 ```bash
 Notebooks/
 ├── Relevance/
-│   ├── BERT.py
-│   ├── ClimateBERT.py
-│   ├── DistilBERT.py
-│   └── RoBERTa.py
+│   ├── BERT_Relevance.ipynb
+│   ├── ClimateBERT_Relevance.py
+│   ├── DistilBERT_Relevance.py
+│   └── RoBERTa_Relevance.py
 │
 ├── Stance/
-│   ├── BERT.py
-│   ├── ClimateBERT.py
-│   ├── DistilBERT.py
-│   └── RoBERTa.py
+│   ├── BERT_Stance.ipynb
+│   ├── ClimateBERT_Stance.ipynb
+│   ├── DistilBERT_Stance.ipynb
+│   └── RoBERTa_Stance.ipynb
 │
 ├── Hate_Speech/
-│   ├── BERT.py
-│   ├── ClimateBERT.py
-│   ├── DistilBERT.py
-│   └── RoBERTa.py
+│   ├── BERT_HateSpeech.ipynb
+│   ├── ClimateBERT_HateSpeech.ipynb
+│   ├── DistilBERT_HateSpeech.ipynb
+│   └── RoBERTa_HateSpeech.ipynb
 │
 ├── Hate_Speech_Directions/
-│   ├── BERT.py
-│   ├── ClimateBERT.py
-│   ├── DistilBERT.py
-│   └── RoBERTa.py
+│   ├── BERT_Directions.ipynb
+│   ├── ClimateBERT_Directions.ipynb
+│   ├── DistilBERT_Directions.ipynb
+│   └── RoBERTa_Directions.ipynb
 │
 ├── Hate_Speech_Targets/
-│   ├── BERT.py
-│   ├── ClimateBERT.py
-│   ├── DistilBERT.py
-│   └── RoBERTa.py
+│   ├── BERT_Targets.ipynb
+│   ├── ClimateBERT_Targets.ipynb
+│   ├── DistilBERT_Targets.ipynb
+│   └── RoBERTa_Targets.ipynb
 │
 └── Humor/
-    ├── BERT.py
-    ├── ClimateBERT.py
-    ├── DistilBERT.py
-    └── RoBERTa.py
+    ├── BERT_Humor.ipynb
+    ├── ClimateBERT_Humor.ipynb
+    ├── DistilBERT_Humor.ipynb
+    └── RoBERTa_Humor.ipynb
 ```
 ---
 
-
-Each directory corresponds to a **specific classification task**, and within each folder, four transformer-based implementations are provided separately for modularity and reproducibility.  
+Inside the `Notebooks` directory, each subdirectories correspond to a **specific classification task**, and within each folder, four transformer-based implementations are provided separately for modularity and reproducibility.
 All scripts include:
 - Dataset preprocessing and tokenization  
 - Model fine-tuning and BiLSTM integration  
