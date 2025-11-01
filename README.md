@@ -26,15 +26,35 @@ However, analyzing such short, noisy, and imbalanced microblog data (e.g., tweet
 
 ## ⚙️ Architecture
 
-Input Tweets → Preprocessing → Transformer Embedding
-→ BiLSTM (Sequential Learning)
-→ MLP Classifier → Predicted Label
+The proposed **ClimateNet** framework follows a **hybrid multi-model architecture** that combines transformer-based feature extraction with sequential and dense learning modules for robust text classification.
 
 Each transformer (BERT, RoBERTa, DistilBERT, ClimateBERT) is fine-tuned and followed by a BiLSTM and MLP classifier.  
 
-- **Transformers:** Extract deep contextual features  
-- **BiLSTM:** Captures long- and short-term dependencies  
-- **MLP:** Maps learned representations to output labels  
+- **Transformers:** Extract deep contextual features
+- **BiLSTM:** Captures long- and short-term dependencies
+- **MLP:** Maps learned representations to output labels
+
+
+### 🧠 Pipeline Components
+
+1. **Data Formatting:**  
+   Raw social media texts and their associated labels are preprocessed and tokenized into a structured input format suitable for transformer models.
+
+2. **Feature Extraction (BERT, RoBERTa, DistilBERT, ClimateBERT):**  
+   Each transformer independently extracts deep contextual embeddings from the formatted text.  
+   These embeddings capture the semantic nuances and contextual relationships in climate-related discourse.
+
+3. **Sequential Learning (BiLSTM):**  
+   The extracted features are passed through a **Bidirectional LSTM**, which models long-term dependencies by processing sequences in both forward and backward directions.  
+   This step enhances temporal understanding and context retention.
+
+4. **Classification Module (MLP):**  
+   The BiLSTM outputs are fed into a **Multilayer Perceptron (MLP)** classifier, which produces the final predictions for each task.  
+   Depending on the classification objective (binary or multiclass), a sigmoid or softmax activation is applied.
+
+---
+
+In essence, ClimateNet integrates **contextual transformers** with **temporal sequence modeling** and **dense classification layers**, enabling the framework to accurately predict multi-faceted aspects of climate change discourse across six tasks.
 
 ---
 
