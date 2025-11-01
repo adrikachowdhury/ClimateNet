@@ -63,43 +63,44 @@ Main evaluation metric: **Macro-averaged F1-score**.
 
 ## 📂 Repository Structure
 
-Notebooks
+```bash
+Notebooks/
 ├── Relevance/
-│ ├── BERT.py
-│ ├── ClimateBERT.py
-│ ├── DistilBERT.py
-│ └── RoBERTa.py
+│   ├── BERT.py
+│   ├── ClimateBERT.py
+│   ├── DistilBERT.py
+│   └── RoBERTa.py
 │
 ├── Stance/
-│ ├── BERT.py
-│ ├── ClimateBERT.py
-│ ├── DistilBERT.py
-│ └── RoBERTa.py
+│   ├── BERT.py
+│   ├── ClimateBERT.py
+│   ├── DistilBERT.py
+│   └── RoBERTa.py
 │
 ├── Hate_Speech/
-│ ├── BERT.py
-│ ├── ClimateBERT.py
-│ ├── DistilBERT.py
-│ └── RoBERTa.py
+│   ├── BERT.py
+│   ├── ClimateBERT.py
+│   ├── DistilBERT.py
+│   └── RoBERTa.py
 │
 ├── Hate_Speech_Directions/
-│ ├── BERT.py
-│ ├── ClimateBERT.py
-│ ├── DistilBERT.py
-│ └── RoBERTa.py
+│   ├── BERT.py
+│   ├── ClimateBERT.py
+│   ├── DistilBERT.py
+│   └── RoBERTa.py
 │
 ├── Hate_Speech_Targets/
-│ ├── BERT.py
-│ ├── ClimateBERT.py
-│ ├── DistilBERT.py
-│ └── RoBERTa.py
+│   ├── BERT.py
+│   ├── ClimateBERT.py
+│   ├── DistilBERT.py
+│   └── RoBERTa.py
 │
 └── Humor/
-├── BERT.py
-├── ClimateBERT.py
-├── DistilBERT.py
-└── RoBERTa.py
-
+    ├── BERT.py
+    ├── ClimateBERT.py
+    ├── DistilBERT.py
+    └── RoBERTa.py
+```
 ---
 
 
