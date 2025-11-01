@@ -82,7 +82,7 @@ ClimateNet performs **six independent NLP classification tasks** on the *ClimaCo
 
 ## 🧾 Dataset
 
-We used **ClimaConvo** — a publicly available dataset comprising **15,309 English climate-related tweets**, annotated across the six dimensions listed above.  
+We used **ClimaConvo**,  a publicly available dataset comprising **15,309 English climate-related tweets**, annotated across the six dimensions listed above.  
 Data split: **80% train / 20% test** (stratified).  
 Main evaluation metric: **Macro-averaged F1-score**.
 
