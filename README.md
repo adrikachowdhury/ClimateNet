@@ -149,9 +149,10 @@ cd ClimateNet
 ```
 
 ### 2️⃣ Set Up the Python Environment
+Use Python 3.10+
 
 ### 3️⃣ Install Dependencies
-Install the required packages using:
+
 ```bash
 pip install -r requirements.txt
 ```
