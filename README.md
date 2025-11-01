@@ -4,6 +4,13 @@
 
 ---
 
+## 🏛️ Publication Status
+
+This paper, *“ClimateNet: A Multi-Faceted Classifier for Analyzing Climate Change Discourse,”* has been **accepted and presented at the IEEE Region 10 Humanitarian Technology Conference (R10-HTC 2025)**.  
+It is currently **in press and will be published soon in the IEEE Xplore digital library**.
+
+---
+
 ## 🧩 Overview
 
 **ClimateNet** is a **multi-task text classification framework** designed to analyze the multifaceted discourse surrounding **climate change on social media**. It leverages **transformer-based contextual embeddings (BERT, RoBERTa, DistilBERT, ClimateBERT)** integrated with a **Bidirectional LSTM (BiLSTM)** and a **Multilayer Perceptron (MLP)** classifier to capture both semantic and sequential dependencies in textual data.  
