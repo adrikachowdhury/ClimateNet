@@ -138,6 +138,29 @@ All scripts include:
 
 ---
 
+## 💻 Installation
+
+To replicate our experiments or explore the ClimateNet notebooks locally, please follow these steps:
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/<your-username>/ClimateNet.git
+cd ClimateNet
+```
+
+### 2️⃣ Set Up the Python Environment
+
+### 3️⃣ Install Dependencies
+Install the required packages using:
+```bash
+pip install -r requirements.txt
+```
+
+###4️⃣ Run the Notebooks
+
+Upload the notebook of your choice (e.g., ```Notebooks/Stance/DistilBERT_Stance.ipynb```) to Colab and ensure the runtime is set to GPU for faster training.
+
+
 ## 🙏 Acknowledgment
 
 This research builds upon the **ClimaConvo** dataset introduced by **Shiwakoti et al. (2024)** in their paper *“Analyzing the Dynamics of Climate Change Discourse on Twitter: A New Annotated Corpus and Multi-Aspect Classification”* (LREC-COLING 2024).  
