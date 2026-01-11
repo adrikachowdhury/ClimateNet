@@ -4,14 +4,14 @@
 
 ---
 
-## 🏛️ Publication Status
+## Publication Status
 
 This paper, *“ClimateNet: A Multi-Faceted Classifier for Analyzing Climate Change Discourse,”* has been **accepted and presented at the IEEE Region 10 Humanitarian Technology Conference (R10-HTC 2025)**.  
 It is currently **in press and will be published soon in the IEEE Xplore digital library**.
 
 ---
 
-## 🧩 Overview
+## Overview
 
 **ClimateNet** is a **multi-task text classification framework** designed to analyze the multifaceted discourse surrounding **climate change on social media**. It leverages **transformer-based contextual embeddings (BERT, RoBERTa, DistilBERT, ClimateBERT)** integrated with a **Bidirectional LSTM (BiLSTM)** and a **Multilayer Perceptron (MLP)** classifier to capture both semantic and sequential dependencies in textual data.  
 
@@ -35,7 +35,7 @@ In essence, ClimateNet integrates **contextual transformers** with **temporal se
 
 ---
 
-## 📚 Tasks
+## Tasks
 
 ClimateNet performs **six independent NLP classification tasks** on the *ClimaConvo* dataset:
 
@@ -50,7 +50,7 @@ ClimateNet performs **six independent NLP classification tasks** on the *ClimaCo
 
 ---
 
-## 🧾 Dataset
+## Dataset
 
 We used **ClimaConvo**,  a publicly available dataset comprising **15,309 English climate-related tweets**, annotated across the six dimensions listed above.  
 Data split: **80% train / 20% test** (stratified).  
@@ -108,31 +108,31 @@ All scripts include:
 
 ---
 
-## 💻 Installation
+## Installation
 
 To replicate our experiments or explore the ClimateNet notebooks locally, please follow these steps:
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 ```bash
 git clone https://github.com/<your-username>/ClimateNet.git
 cd ClimateNet
 ```
 
-### 2️⃣ Set Up the Python Environment
+### Set Up the Python Environment
 Use Python 3.10+
 
-### 3️⃣ Install Dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Run the Notebooks
+### Run the Notebooks
 
 Upload the notebook of your choice (e.g., ```Notebooks/Stance/DistilBERT_Stance.ipynb```) to Colab and ensure the runtime is set to GPU for faster training.
 
 
-## 🙏 Acknowledgment
+## Acknowledgment
 
 This research builds upon the **ClimaConvo** dataset introduced by **Shiwakoti et al. (2024)** in their paper *“Analyzing the Dynamics of Climate Change Discourse on Twitter: A New Annotated Corpus and Multi-Aspect Classification”* (LREC-COLING 2024).  
 We gratefully acknowledge their contribution for providing the annotated benchmark dataset that enabled our experiments and evaluation.
