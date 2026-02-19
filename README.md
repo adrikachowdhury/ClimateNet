@@ -100,7 +100,7 @@ Notebooks/
 ```
 ---
 
-Inside the `Notebooks` directory, each subdirectories correspond to a **specific classification task**, and within each folder, four transformer-based implementations are provided separately for modularity and reproducibility.
+Inside the `Notebooks` directory, each subdirectory corresponds to a **specific classification task**, and within each folder, four transformer-based implementations are provided separately for modularity and reproducibility.
 All scripts include:
 - Dataset preprocessing and tokenization  
 - Model fine-tuning and BiLSTM integration  
