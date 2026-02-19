@@ -112,22 +112,22 @@ All scripts include:
 
 To replicate our experiments or explore the ClimateNet notebooks locally, please follow these steps:
 
-### Clone the Repository
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/<your-username>/ClimateNet.git
 cd ClimateNet
 ```
 
-### Set Up the Python Environment
+### 2. Set Up the Python Environment
 Use Python 3.10+
 
-### Install Dependencies
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run the Notebooks
+### 4. Run the Notebooks
 
 Upload the notebook of your choice (e.g., ```Notebooks/Stance/DistilBERT_Stance.ipynb```) to Colab and ensure the runtime is set to GPU for faster training.
 
