@@ -129,7 +129,7 @@ pip install -r requirements.txt
 
 ### 4. Run the Notebooks
 
-Upload the notebook of your choice (e.g., ```Notebooks/Stance/DistilBERT_Stance.ipynb```) to Colab and ensure the runtime is set to GPU for faster training.
+Upload the notebook of your choice (e.g., ```Notebooks/Stance/DistilBERT_Stance.ipynb```) to Google Colab and ensure the runtime is set to GPU for faster training.
 
 
 ## Acknowledgment
