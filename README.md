@@ -6,8 +6,8 @@
 
 ## Publication Status
 
-This paper, [*“ClimateNet: A Multi-Faceted Classifier for Analyzing Climate Change Discourse,”*](https://doi.org/10.1109/R10-HTC63995.2025.11394695
-) has been **accepted and presented at the IEEE Region 10 Humanitarian Technology Conference (R10-HTC 2025)**.  
+This paper, [*“ClimateNet: A Multi-Faceted Classifier for Analyzing Climate Change Discourse”*](https://doi.org/10.1109/R10-HTC63995.2025.11394695
+), has been **accepted and presented at the IEEE Region 10 Humanitarian Technology Conference (R10-HTC 2025)**.  
 
 ---
 
