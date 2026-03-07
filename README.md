@@ -6,8 +6,8 @@
 
 ## Publication Status
 
-This paper, *“ClimateNet: A Multi-Faceted Classifier for Analyzing Climate Change Discourse,”* has been **accepted and presented at the IEEE Region 10 Humanitarian Technology Conference (R10-HTC 2025)**.  
-It is currently **in press and will be published soon in the IEEE Xplore digital library**.
+This paper, [*“ClimateNet: A Multi-Faceted Classifier for Analyzing Climate Change Discourse,”*](https://doi.org/10.1109/R10-HTC63995.2025.11394695
+) has been **accepted and presented at the IEEE Region 10 Humanitarian Technology Conference (R10-HTC 2025)**.  
 
 ---
 
@@ -130,7 +130,6 @@ pip install -r requirements.txt
 ### 4. Run the Notebooks
 
 Upload the notebook of your choice (e.g., ```Notebooks/Stance/DistilBERT_Stance.ipynb```) to Google Colab and ensure the runtime is set to GPU for faster training.
-
 
 ## Acknowledgment
 
