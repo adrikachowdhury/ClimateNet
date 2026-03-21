@@ -135,3 +135,16 @@ Upload the notebook of your choice (e.g., ```Notebooks/Stance/DistilBERT_Stance.
 
 This research builds upon the **ClimaConvo** dataset introduced by **Shiwakoti et al. (2024)** in their paper *“Analyzing the Dynamics of Climate Change Discourse on Twitter: A New Annotated Corpus and Multi-Aspect Classification”* (LREC-COLING 2024).  
 We gratefully acknowledge their contribution for providing the annotated benchmark dataset that enabled our experiments and evaluation.
+
+### Citation
+
+```bash
+@inproceedings{mazumdar2025climatenet,
+  title={ClimateNet: A Multi-Faceted Classifier for Analyzing Climate Change Discourse},
+  author={Mazumdar, Tustee and Chowdhury, Adrika and Chy, Abu Nowshed and Ahmed, Tarem},
+  booktitle={2025 IEEE 13th Region 10 Humanitarian Technology Conference (R10-HTC)},
+  pages={105--110},
+  year={2025},
+  organization={IEEE}
+}
+```
